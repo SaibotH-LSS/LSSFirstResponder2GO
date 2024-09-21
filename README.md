@@ -8,12 +8,12 @@ Ich übernehme keinerlei Garantie, dass dieses Skript einwandfrei funktioniert. 
 
 Bekannte Fehler:
 
-    Derzeit keine bekannt
+- Derzeit keine bekannt
 
 Geplante Funktionserweiterungen:
 
-    Derzeit keine geplant
+- Derzeit keine geplant
 
 Release V1.0.0 (TBD):
 
-    Erstveröffentlichung
+- Erstveröffentlichung
