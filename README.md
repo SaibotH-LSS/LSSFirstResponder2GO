@@ -14,6 +14,6 @@ Geplante Funktionserweiterungen:
 
 - Derzeit keine geplant
 
-Release V1.0.0 (TBD):
+Release V1.0.0 (17.10.2024):
 
 - Erstveröffentlichung
