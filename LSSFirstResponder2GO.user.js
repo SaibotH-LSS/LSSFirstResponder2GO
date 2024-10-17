@@ -122,7 +122,6 @@
         } else {
             console.error(errorText + "Mapping: Ungültiger DataSet-Typ!");
         }
-
         return retVal;
     }
 
@@ -149,7 +148,6 @@
     elTabContentDiv.querySelectorAll('input').forEach(function(input) {
         const sTempName = input.getAttribute('name');
         if (sTempName.includes('vehicle_type_ids')) {
-            console.log(sTempName.match(/\[(\[?.*?\]?)\]/));
             aPosblVehicleTypes.push(sTempName.match(/\[(\[?.*?\]?)\]/)[1])
         }
     });
@@ -162,7 +160,6 @@
             if (!aPosblVehicleTypes.includes(tempIds)) {
                 iConfigQuant = objAao.vehicle_types[value];
                 sConfigIds = tempIds.replace(/[\[\]]/g, '')
-                console.log(tempIds);
             }
         });
         aConfigIds = sConfigIds.split(',').map(num => parseInt(num.trim(), 10));
@@ -260,7 +257,6 @@
                 }
             });
         }
-
     });
 
     // Speichern der Fr2Go Konfig in das input Element mittels Button Klick
